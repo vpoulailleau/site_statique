@@ -100,4 +100,12 @@ Vous pouvez faire ces conversions en utilisant au choix :
 
 ### Rendu sur Github
 
+Votre projet Python sera posté sur Github et un lien sera fourni.
+
 ### Projet open-source
+
+Vous pouvez faire un projet open-source. Beaucoup de projets Python utilisent la license MIT ou BSD 3 clauses, ces licences sont faciles à lire et très permissives. Vous pouvez aussi utiliser une licence plus stricte comme la GPL qui imposent que les versions modifiées de votre projet soient aussi open-source.
+
+Vous pouvez faire en sorte que votre projet soit installable par la communauté Python en le diffusant sur le Python Package Index (https://pypi.org/).
+
+Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/audreyr/cookiecutter-pypackage.
