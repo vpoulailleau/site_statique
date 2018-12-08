@@ -79,7 +79,7 @@ Vous allez réaliser un outil en ligne de commande. Il prendra au moins comme pa
 
 Vous pouvez utiliser :
 
-* sys.argv (mais je ne vous le conseille pas)
+* sys.argv (mais je ne vous le conseille pas, https://docs.python.org/fr/3/library/sys.html#sys.argv)
 * argparse (https://docs.python.org/fr/3/howto/argparse.html)
 * click (https://click.palletsprojects.com/en/7.x/)
 
