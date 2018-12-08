@@ -54,7 +54,15 @@ Les fichiers compris par un navigateur internet sont aux formats HTML/CSS/JavaSc
 
 ## Projet
 
-Vous allez réaliser un outil convertissant un dossier de fichiers markdown et d'images en un autre dossier contenant les fichiers d'un site statique. Du HTML sera généré à partir du markdown, et cet HTML sera mélangé avec des modèles de pages web pour générer des pages toutes conformes au même modèle (par exemple avec le même logo, le même sommaire de site internet, le même fichier CSS référencé…)
+Vous allez réaliser un outil convertissant un dossier de fichiers markdown et d'images en un autre dossier contenant les fichiers d'un site statique. Du HTML sera généré à partir du markdown, et cet HTML sera mélangé avec des modèles de pages web pour générer des pages toutes conformes au même modèle (par exemple avec le même logo, le même sommaire de site internet, le même fichier CSS référencé…).
+
+Les fichiers markdown peuvent être créés :
+
+* avec Visual Studio Code
+* avec https://github.com/ncornette/Python-Markdown-Editor
+* avec https://pandao.github.io/editor.md/en.html
+* avec https://dillinger.io/
+* …
 
 ### Réalisation d'une interface en ligne de commande
 
@@ -73,6 +81,22 @@ Vous pouvez utiliser :
 
 ### Conversion de markdown vers HTML
 
+Vous devez au moins convertir les syntaxes suivantes :
+ 
+* `#`, un titre de niveau 1 en `<h1>`
+* `##`, un titre de niveau 2 en `<h2>`
+* `###`, un titre de niveau 3 en `<h3>`
+* Convertir les listes non ordonées en `<ul>` et `<li>`
+* Convertir les URL (http://quelquechose.com) en `<a href="http://quelquechose.com">http://quelquechose.com</a>`
+* `*un texte*`, un texte important en `<em>un texte</em>`
+
+Vous pouvez faire ces conversions en utilisant au choix :
+
+* les fonctions de base de Python pour les chaînes de caractères
+* les expressions régulières (https://docs.python.org/fr/3/library/re.html)
+* un package de la communauté
+  * https://github.com/Python-Markdown/markdown
+  * https://github.com/trentm/python-markdown2
 
 ### Rendu sur Github
 
