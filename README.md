@@ -13,11 +13,11 @@ Un site internet statique est un site composé uniquement de fichiers présents 
 * des vidéos,
 * …
 
-Cela s'oppose aux sites internet dynamique, où certains de ces fichiers sont générés à la volée par du logiciel, à partir par exemple de données dans une base données.
+Cela s'oppose aux sites internet dynamique, où certains de ces fichiers sont générés à la volée par du logiciel, à partir par exemple de données dans une base de données.
 
 ## Héberger un site statique
 
-Héberger un site dynamique est plus complexe, il faut en effet installer le logiciel qui va générer les fichiers à la volée. Par contre, héberger un site statique est relativement simple, il suffit d'avoir un petit serveur web qui met à disposition le dossier contenant les fichiers statiques.
+Héberger un site dynamique est plus complexe que pour un site statique, il faut en effet installer le logiciel qui va générer les fichiers à la volée. Par contre, héberger un site statique est relativement simple, il suffit d'avoir un petit serveur web qui met à disposition le dossier contenant les fichiers statiques.
 
 ### Github
 
@@ -31,7 +31,7 @@ Plus de renseignement sur :
   
 ### Utiliser un serveur web
 
-Des outils commes Apache ou Nginx permettent de rendre accessible votre site par internet ou intranet :k
+Des outils commes Apache ou Nginx permettent de rendre accessible votre site par internet ou intranet :
 * https://httpd.apache.org/docs/trunk/fr/getting-started.html
 * http://sametmax.com/servir-des-fichiers-statiques-avec-nginx/
 * https://doc.ubuntu-fr.org/nginx
@@ -43,14 +43,18 @@ Python vous fournit un serveur web minimaliste, par exemple pour aller sur http:
 python -m http.server 8080  --directory ./dossier_de_mon_site/
 ```
 
-* Github
-* Apache
-* Nginx
-* python -m http.server
-
 ## Génerer un site statique
 
-Les fichiers compris par un navigateur internet sont aux formats HTML/CSS/JavaScript. Vous n'avez peut-être pas envie de taper du HTML quand vous écrivez un blog. Il serait pratique de générer les pages web à partir d'un format textuel simple, comme le markdown (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf), langage utilisé pour écrire le document que vous lisez actuellement.
+Les fichiers compris par un navigateur internet sont aux formats HTML/CSS/JavaScript. Vous n'avez peut-être pas envie de taper du HTML quand vous écrivez un blog. Il serait pratique de générer les pages web à partir d'un format textuel simple, comme le markdown (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf), langage utilisé pour écrire le document que vous lisez actuellement (https://raw.githubusercontent.com/vpoulailleau/site_statique/master/README.md).
+
+Certains outils open-source le font déjà, dont certains connus et en Python :
+
+* https://blog.getpelican.com/
+* https://www.getlektor.com/
+* https://www.mkdocs.org/
+* https://github.com/eudicots/Cactus
+* http://www.sphinx-doc.org/en/master/
+* https://www.getnikola.com/
 
 ## Projet
 
