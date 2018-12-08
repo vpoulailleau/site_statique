@@ -53,3 +53,27 @@ python -m http.server 8080  --directory ./dossier_de_mon_site/
 Les fichiers compris par un navigateur internet sont aux formats HTML/CSS/JavaScript. Vous n'avez peut-être pas envie de taper du HTML quand vous écrivez un blog. Il serait pratique de générer les pages web à partir d'un format textuel simple, comme le markdown (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf), langage utilisé pour écrire le document que vous lisez actuellement.
 
 ## Projet
+
+Vous allez réaliser un outil convertissant un dossier de fichiers markdown et d'images en un autre dossier contenant les fichiers d'un site statique. Du HTML sera généré à partir du markdown, et cet HTML sera mélangé avec des modèles de pages web pour générer des pages toutes conformes au même modèle (par exemple avec le même logo, le même sommaire de site internet, le même fichier CSS référencé…)
+
+### Réalisation d'une interface en ligne de commande
+
+Vous allez réaliser un outil en ligne de commande. Il prendra au moins comme paramètres :
+
+* le chemin du dossier de fichiers
+* le chemin du dossier où seront mis les fichiers générés
+* éventuellement le dossier contenant des modèles de pages web à compléter
+* de l'aide pour exliquer les paramètres de la commande
+
+Vous pouvez utiliser :
+
+* sys.argv (mais je ne vous le conseille pas)
+* argparse (https://docs.python.org/fr/3/howto/argparse.html)
+* click (https://click.palletsprojects.com/en/7.x/)
+
+### Conversion de markdown vers HTML
+
+
+### Rendu sur Github
+
+### Projet open-source
