@@ -86,7 +86,7 @@ Vous pouvez utiliser :
 ### Conversion de markdown vers HTML
 
 Vous devez au moins convertir les syntaxes suivantes :
- 
+
 * `#`, un titre de niveau 1 en `<h1>`
 * `##`, un titre de niveau 2 en `<h2>`
 * `###`, un titre de niveau 3 en `<h3>`
@@ -102,6 +102,14 @@ Vous pouvez faire ces conversions en utilisant au choix :
   * https://github.com/Python-Markdown/markdown
   * https://github.com/trentm/python-markdown2
 
+### Qualité du code
+
+Vous veillerez à respecter :
+
+* la PEP 8 :  https://www.python.org/dev/peps/pep-0008/
+* la PEP 20 : https://www.python.org/dev/peps/pep-0020/
+* plus de détails sur https://vpoulailleau.wordpress.com/2018/12/04/un-code-pythonique/
+
 ### Rendu sur Github
 
 Votre projet Python sera posté sur Github et un lien sera fourni.
@@ -113,3 +121,11 @@ Vous pouvez faire un projet open-source. Beaucoup de projets Python utilisent la
 Vous pouvez faire en sorte que votre projet soit installable par la communauté Python en le diffusant sur le Python Package Index (https://pypi.org/).
 
 Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/audreyr/cookiecutter-pypackage.
+
+### Objectifs
+
+Il va de soi que se documenter, copier du code (dans le respect des licences), discuter avec d'autres codeurs est vivement recommandé pour progresser. Regardez comment font les autres, et faites à votre façon. Soyez capables d'expliquer ce que vous avez fait.
+
+Pour rappel toutefois, un code sans licence est par défaut protégé par le droit d'auteur, vous n'avez donc pas le droit de le copier.
+
+Bon apprentissage, et bon projet.
