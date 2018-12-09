@@ -124,6 +124,10 @@ Vous pouvez faire en sorte que votre projet soit installable par la communauté 
 
 Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/audreyr/cookiecutter-pypackage.
 
+### Mises à jour de l'énoncé
+
+Il se peut que, suite à des questions reçues, l'énoncé soit mis à jour. La dernière version de l'énoncé est disponible ici : https://github.com/vpoulailleau/site_statique.
+
 ### Objectifs
 
 Il va de soi que se documenter, copier du code (dans le respect des licences), discuter avec d'autres codeurs est vivement recommandé pour progresser. Regardez comment font les autres, et faites à votre façon. Soyez capables d'expliquer ce que vous avez fait.
@@ -131,7 +135,3 @@ Il va de soi que se documenter, copier du code (dans le respect des licences), d
 Pour rappel toutefois, un code sans licence est par défaut protégé par le droit d'auteur, vous n'avez donc pas le droit de le copier.
 
 Bon apprentissage, et bon projet.
-
-### Mises à jour de l'énoncé
-
-Il se peut que, suite à des questions, l'énoncé soit mis à jour. La dernière version de l'énoncé est disponible ici : https://github.com/vpoulailleau/site_statique.
