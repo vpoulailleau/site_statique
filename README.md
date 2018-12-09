@@ -138,13 +138,15 @@ Pour rappel toutefois, un code sans licence est par défaut protégé par le dro
 
 ### Évaluation
 
-Les critères de notation sont les suivants :
+Le projet est adapté à tous les niveaux, une version basique est réalisable, mais le projet peut aller jusqu'à la réalisation d'un outil open-source rendu disponible à la communauté.
 
-* implication (visible entres autre par l'historique de votre dépôt git)
+Les critères d'évaluation sont les suivants :
+
+* implication (visible entre autres par l'historique de votre dépôt git)
 * respect de la PEP 8
 * respect de la PEP 20
 * qualité du fichier README.md
-* réalisation en conformité avec les fonctionnalités de bases de cette énoncé
+* réalisation en conformité avec les fonctionnalités de base de cette énoncé
 * des points bonus si vous allez plus loin
 
 Bon apprentissage, et bon projet.
