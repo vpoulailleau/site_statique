@@ -132,6 +132,6 @@ Il se peut que, suite à des questions reçues, l'énoncé soit mis à jour. La 
 
 Il va de soi que se documenter, copier du code (dans le respect des licences), discuter avec d'autres codeurs est vivement recommandé pour progresser. Regardez comment font les autres, et faites à votre façon. Soyez capables d'expliquer ce que vous avez fait.
 
-Pour rappel toutefois, un code sans licence est par défaut protégé par le droit d'auteur, vous n'avez donc pas le droit de le copier.
+Pour rappel toutefois, un code sans licence est par défaut protégé par le droit d'auteur, vous n'avez donc pas le droit de le copier, sauf avec un accord de l'auteur.
 
 Bon apprentissage, et bon projet.
