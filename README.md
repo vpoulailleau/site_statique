@@ -114,6 +114,8 @@ Vous veillerez à respecter :
 
 Votre projet **personnel** Python sera posté sur Github et un lien vers le dépôt public sera fourni.
 
+À la racine de votre dépôt git se trouvera un fichier README.md qui expliquera comment fonctionne votre projet, comment l'utiliser, quel est sa licence…
+
 ### Projet open-source
 
 Vous pouvez faire un projet libre et open-source. Beaucoup de projets Python utilisent la license MIT ou BSD 3 clauses, ces licences sont faciles à lire et très permissives. Vous pouvez aussi utiliser une licence plus stricte comme la GPL qui imposent que les versions modifiées de votre projet soient aussi open-source.
