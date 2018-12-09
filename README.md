@@ -72,10 +72,10 @@ Les fichiers markdown peuvent être créés :
 
 Vous allez réaliser un outil en ligne de commande pour générer les fichiers du site statique. Il prendra au moins comme paramètres :
 
-* -i ./un_dossier ou --input-directory ./un_dossier : le chemin du dossier de fichiers source (contenant les fichiers markdown)
-* -o ./un_autre_dossier ou --output-directory ./un_autre_dossier : le chemin du dossier où seront mis les fichiers générés pour le site statique
-* -t ./autre_dossier ou --template-directory ./autre_dossier : éventuellement le dossier contenant des modèles de pages web à compléter
-* -h ou --help : pour afficher de l'aide pour exliquer les paramètres de la commande
+* `-i ./un_dossier` ou `--input-directory ./un_dossier` : le chemin du dossier de fichiers source (contenant les fichiers markdown)
+* `-o ./un_autre_dossier` ou `--output-directory ./un_autre_dossier` : le chemin du dossier où seront mis les fichiers générés pour le site statique
+* `-t ./autre_dossier` ou `--template-directory ./autre_dossier` : éventuellement le dossier contenant des modèles de pages web à compléter
+* `-h` ou `--help` : pour afficher de l'aide pour exliquer les paramètres de la commande
 
 Vous pouvez utiliser :
 
