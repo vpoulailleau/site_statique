@@ -13,7 +13,7 @@ Un site internet statique est un site composé uniquement de fichiers présents 
 * des vidéos,
 * …
 
-Cela s'oppose aux sites internet dynamique, où certains de ces fichiers sont générés à la volée par du logiciel, à partir par exemple de données dans une base de données.
+Cela s'oppose aux sites internet dynamiques, où certains de ces fichiers sont générés à la volée par du logiciel, à partir par exemple de données dans une base de données.
 
 ## Héberger un site statique
 
@@ -21,7 +21,7 @@ Héberger un site dynamique est plus complexe que pour un site statique, il faut
 
 ### Github
 
-Github fournit un hébergement gratuit de site statique. Il suffit de créer un dépôt git avec Github, et de commiter dans une branche spécifique. Votre site est alors accessible à l'adresse suivante : https://votre_login.github.io/votre_nom_de_depot/
+Github fournit un hébergement gratuit de site statique. Il suffit de créer un dépôt git avec Github, et de committer dans une branche spécifique. Votre site est alors accessible à l'adresse suivante : https://votre_login.github.io/votre_nom_de_depot/
 
 Plus de renseignement sur :
 
@@ -70,12 +70,12 @@ Les fichiers markdown peuvent être créés :
 
 ### Réalisation d'une interface en ligne de commande
 
-Vous allez réaliser un outil en ligne de commande. Il prendra au moins comme paramètres :
+Vous allez réaliser un outil en ligne de commande pour générer les fichiers du site statique. Il prendra au moins comme paramètres :
 
-* le chemin du dossier de fichiers
-* le chemin du dossier où seront mis les fichiers générés
-* éventuellement le dossier contenant des modèles de pages web à compléter
-* de l'aide pour exliquer les paramètres de la commande
+* -i ./un_dossier ou --input-directory ./un_dossier : le chemin du dossier de fichiers source (contenant les fichiers markdown)
+* -o ./un_autre_dossier ou --output-directory ./un_autre_dossier : le chemin du dossier où seront mis les fichiers générés pour le site statique
+* -t ./autre_dossier ou --template-directory ./autre_dossier : éventuellement le dossier contenant des modèles de pages web à compléter
+* -h ou --help : pour afficher de l'aide pour exliquer les paramètres de la commande
 
 Vous pouvez utiliser :
 
@@ -116,9 +116,11 @@ Votre projet Python sera posté sur Github et un lien sera fourni.
 
 ### Projet open-source
 
-Vous pouvez faire un projet open-source. Beaucoup de projets Python utilisent la license MIT ou BSD 3 clauses, ces licences sont faciles à lire et très permissives. Vous pouvez aussi utiliser une licence plus stricte comme la GPL qui imposent que les versions modifiées de votre projet soient aussi open-source.
+Vous pouvez faire un projet libre et open-source. Beaucoup de projets Python utilisent la license MIT ou BSD 3 clauses, ces licences sont faciles à lire et très permissives. Vous pouvez aussi utiliser une licence plus stricte comme la GPL qui imposent que les versions modifiées de votre projet soient aussi open-source.
 
-Vous pouvez faire en sorte que votre projet soit installable par la communauté Python en le diffusant sur le Python Package Index (https://pypi.org/).
+Vous pouvez lire la licence BSD 3 clauses du projet https://github.com/vpoulailleau/simplelogging à l'adresse suivante https://github.com/vpoulailleau/simplelogging/blob/master/LICENSE.
+
+Vous pouvez faire en sorte que votre projet soit installable par la communauté Python en le diffusant sur le Python Package Index (https://pypi.org/), comme par exemple https://pypi.org/project/simplelogging/.
 
 Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/audreyr/cookiecutter-pypackage.
 
