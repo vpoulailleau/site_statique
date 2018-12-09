@@ -136,6 +136,17 @@ Il va de soi que se documenter, copier du code (dans le respect des licences), d
 
 Pour rappel toutefois, un code sans licence est par défaut protégé par le droit d'auteur, vous n'avez donc pas le droit de le copier, sauf avec un accord de l'auteur.
 
+### Évaluation
+
+Les critères de notation sont les suivants :
+
+* implication (visible entres autre par l'historique de votre dépôt git)
+* respect de la PEP 8
+* respect de la PEP 20
+* qualité du fichier README.md
+* réalisation en conformité avec les fonctionnalités de bases de cette énoncé
+* des points bonus si vous allez plus loin
+
 Bon apprentissage, et bon projet.
 
 ## Idées d'algorithme
