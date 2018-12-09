@@ -128,7 +128,7 @@ Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/aud
 
 ### Mises à jour de l'énoncé
 
-Il se peut que, suite à des questions reçues, l'énoncé soit mis à jour. La dernière version de l'énoncé est disponible ici : https://github.com/vpoulailleau/site_statique.
+Il se peut que, suite à des questions reçues, l'énoncé soit mis à jour. La dernière version de l'énoncé est disponible ici : https://github.com/vpoulailleau/site_statique. Vous pouvez voir son historique sur https://github.com/vpoulailleau/site_statique/commits/master.
 
 ### Objectifs
 
