@@ -112,7 +112,7 @@ Vous veillerez à respecter :
 
 ### Rendu sur Github
 
-Votre projet Python sera posté sur Github et un lien vers le dépôt public sera fourni.
+Votre projet **personnel** Python sera posté sur Github et un lien vers le dépôt public sera fourni.
 
 ### Projet open-source
 
