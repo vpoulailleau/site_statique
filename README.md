@@ -135,3 +135,38 @@ Il va de soi que se documenter, copier du code (dans le respect des licences), d
 Pour rappel toutefois, un code sans licence est par défaut protégé par le droit d'auteur, vous n'avez donc pas le droit de le copier, sauf avec un accord de l'auteur.
 
 Bon apprentissage, et bon projet.
+
+## Idées d'algorithme
+
+### Ligne de commande
+
+Commencez par mettre en place la ligne de commande qui acceptera les différents paramètres mentionnés :
+
+* Affichage du message d'aide (argparse et click savent le générer en automatique)
+* Affichage du nom des dossiers passés en paramètres de la ligne de commande
+
+### Génération des fichiers statiques
+
+#### Parcours du dossier de sources
+
+Il va falloir faire un traitement pour chaque fichier markdown présent dans le dossier contenant les fichiers markdown. [Pathlib](https://docs.python.org/fr/3/library/pathlib.html) et sa méthode [glob](https://docs.python.org/fr/3/library/pathlib.html#pathlib.Path.glob) peuvent aider.
+
+#### Conversion markdown vers HTML
+
+Les fichiers markdown sont des fichiers texte. Il faut les ouvrir, les lire, et générer le HTML correspondant.
+
+Le résultat de chaque conversion est stocké dans un fichier HTML dans le dossier qui contiendra les fichiers statiques (dossier fourni par la ligne de commande).
+
+Les premières conversions (les titres) peuvent facilement se réaliser avec la méthode [replace](https://docs.python.org/3/library/stdtypes.html#str.replace) des chaines de caractères.
+
+Il est possible de passer par les [expressions régulières](https://docs.python.org/fr/3/library/re.html), vous pouvez même vous faire aider en utilisant cursive_re présenté sur https://vpoulailleau.wordpress.com/2018/11/29/des-expressions-regulieres-lisibles/.
+
+#### Mécanisme de template
+
+Le mécanisme de pages modèles le plus simple est le suivant :
+
+* Vous créez une page HTML par défaut, et sans contenu, juste le sommaire, le logo, le chargement de CSS…
+* À la place du contenu dans la page HTML, vous mettez le texte « REPLACE_ME »
+* Quand vous générez une page HTML, vous ouvrez la page modèle, et vous remplacer « REPLACE_ME » par l'HTML que vous avez généré à partir du markdown
+* Vous pouvez utiliser https://getbootstrap.com/ pour faire rapidement du HTML plus évolué (responsive design, menus, listes déroulantes, slide show…)
+* Pour ceux qui veulent faire un mécanisme plus évolué de pages modèles, vous pouvez regarder http://jinja.pocoo.org/, https://genshi.edgewall.org/, https://www.makotemplates.org/, https://opensource.com/resources/python/template-libraries
