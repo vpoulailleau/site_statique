@@ -77,6 +77,11 @@ Vous allez réaliser un outil en ligne de commande pour générer les fichiers d
 * `-t ./autre_dossier` ou `--template-directory ./autre_dossier` : éventuellement le dossier contenant des modèles de pages web à compléter
 * `-h` ou `--help` : pour afficher de l'aide pour exliquer les paramètres de la commande
 
+Vous pouvez éventuellement ajouter des paramètres comme :
+* ce que vous voulez
+* `-k` ou `--kikoo-lol` qui ajoutera dans le texte des « kikoo », « lol », « mdr », « ptdr » ou qui répète des lettres comme dans Hellllo, et autres déformations du français (https://fr.wiktionary.org/wiki/kikoolol)
+* `-a` ou `--achtung` pour aider les allemands à lire nos blogs français. Si vous appliquez les règles décrites [ici](https://linuxfr.org/nodes/108129/comments/1642666), zela aidera dafantach no zami alemand dan la prononziation de notr langue et dan la kompréhenzion de no zékri
+
 Vous pouvez utiliser :
 
 * sys.argv (mais je ne vous le conseille pas, https://docs.python.org/fr/3/library/sys.html#sys.argv)
