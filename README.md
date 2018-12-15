@@ -113,7 +113,7 @@ Vous pouvez faire ces conversions en utilisant au choix :
 
 Vous veillerez à respecter :
 
-* la PEP 8 :  https://www.python.org/dev/peps/pep-0008/
+* la PEP 8 :  https://www.python.org/dev/peps/pep-0008/ (vous pouvez vous aider avec https://github.com/ambv/black et https://github.com/hhatto/autopep8)
 * la PEP 20 : https://www.python.org/dev/peps/pep-0020/
 * plus de détails sur https://vpoulailleau.wordpress.com/2018/12/04/un-code-pythonique/
 
