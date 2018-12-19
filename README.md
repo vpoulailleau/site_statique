@@ -127,7 +127,7 @@ Votre projet **personnel** Python sera posté sur Github et un lien vers le dép
 
 ### Projet open-source
 
-Vous pouvez faire un projet libre et open-source. Beaucoup de projets Python utilisent la license MIT ou BSD 3 clauses, ces licences sont faciles à lire et très permissives. Vous pouvez aussi utiliser une licence plus stricte comme la GPL qui imposent que les versions modifiées de votre projet soient aussi open-source.
+Vous pouvez faire un projet libre et open-source. Beaucoup de projets Python utilisent la license MIT ou BSD 3 clauses, ces licences sont faciles à lire et très permissives. Vous pouvez aussi utiliser une licence plus stricte comme la GPL qui impose que les versions modifiées de votre projet soient aussi open-source.
 
 Vous pouvez lire la licence BSD 3 clauses du projet https://github.com/vpoulailleau/simplelogging à l'adresse suivante https://github.com/vpoulailleau/simplelogging/blob/master/LICENSE.
 
