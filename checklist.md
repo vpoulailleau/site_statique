@@ -20,7 +20,6 @@
 | Respect PEP 20                                 | 2      |
 | Support de -i ET --input-directory             | +1     |
 | Support de -o ET --output-directory            | +1     |
-| Support de -h ET --help                        | +1     |
 | Support de -k ou --kikoo-lol                   | +3     |
 | Support de -a ou --achtung                     | +4     |
 | Robustesse aux fichiers markdown               | +3     |
