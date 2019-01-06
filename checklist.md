@@ -32,4 +32,4 @@
 
 ## Exemple de fichiers markdown pour la robustesse
 
-https://raw.githubusercontent.com/vpoulailleau/site_statique/master/robustesse.md
+Le fichier https://raw.githubusercontent.com/vpoulailleau/site_statique/master/robustesse.md donne, une fois interprété par GitHub, https://github.com/vpoulailleau/site_statique/blob/master/robustesse.md.
