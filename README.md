@@ -92,6 +92,12 @@ Vous pouvez utiliser :
 * argparse (https://docs.python.org/fr/3/howto/argparse.html)
 * click (https://click.palletsprojects.com/en/7.x/)
 
+Il se peut donc que votre projet soit utilisé par exemple avec :
+
+```bash
+python3.7 generateur.py --input-directory ./dossier_markdown --output-directory ./dossier_resultat/ --achtung -k
+```
+
 ### Conversion de markdown vers HTML
 
 Vous devez au moins convertir les syntaxes suivantes :
