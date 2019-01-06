@@ -158,6 +158,8 @@ Les critères d'évaluation sont les suivants :
 * réalisation en conformité avec les fonctionnalités de base de cette énoncé
 * des points bonus si vous allez plus loin
 
+Vous pouvez vous faire une idée en utilisant le barême suivant : https://github.com/vpoulailleau/site_statique/blob/master/checklist.md.
+
 Bon apprentissage, et bon projet.
 
 ## Idées d'algorithme
