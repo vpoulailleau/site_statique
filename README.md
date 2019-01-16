@@ -45,7 +45,7 @@ python -m http.server 8080  --directory ./dossier_de_mon_site/
 
 ## Génerer un site statique
 
-Les fichiers compris par un navigateur internet sont aux formats HTML/CSS/JavaScript. Vous n'avez peut-être pas envie de taper du HTML quand vous écrivez un blog. Il serait pratique de générer les pages web à partir d'un format textuel simple, comme le markdown (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf), langage utilisé pour écrire le document que vous lisez actuellement (https://raw.githubusercontent.com/vpoulailleau/site_statique/master/README.md).
+Les fichiers compris par un navigateur internet sont aux formats HTML/CSS/JavaScript. Vous n'avez peut-être pas envie de taper du HTML quand vous écrivez un blog. Il serait pratique de générer les pages web à partir d'un format textuel simple, comme le markdown (https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf ou https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), langage utilisé pour écrire le document que vous lisez actuellement (https://raw.githubusercontent.com/vpoulailleau/site_statique/master/README.md).
 
 Certains outils open-source le font déjà, dont certains connus et en Python :
 
