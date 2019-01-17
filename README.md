@@ -139,7 +139,7 @@ Vous pouvez lire la licence BSD 3 clauses du projet https://github.com/vpoulaill
 
 Vous pouvez faire en sorte que votre projet soit installable par la communauté Python en le diffusant sur le Python Package Index (https://pypi.org/), comme par exemple https://pypi.org/project/simplelogging/.
 
-Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/audreyr/cookiecutter-pypackage.
+Pour vous aidez dans cette aventure, vous pouvez utiliser https://github.com/audreyr/cookiecutter-pypackage ou encore https://ep2015.europython.eu/conference/talks/less-known-packaging-features-and-tricks.
 
 ### Mises à jour de l'énoncé
 
