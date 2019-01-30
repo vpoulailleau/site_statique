@@ -181,7 +181,7 @@ Commencez par mettre en place la ligne de commande qui acceptera les différents
 
 #### Parcours du dossier de sources
 
-Il va falloir faire un traitement pour chaque fichier markdown présent dans le dossier contenant les fichiers markdown. [Pathlib](https://docs.python.org/fr/3/library/pathlib.html) et sa méthode [glob](https://docs.python.org/fr/3/library/pathlib.html#pathlib.Path.glob) peuvent aider.
+Il va falloir faire un traitement pour chaque fichier markdown présent dans le dossier contenant les fichiers markdown. [Pathlib](https://docs.python.org/fr/3/library/pathlib.html) et sa méthode [glob](https://docs.python.org/fr/3/library/pathlib.html#pathlib.Path.glob) peuvent aider (cf https://vpoulailleau.wordpress.com/2019/01/15/utilisez-pathlib-plutot-quos-path-ou-glob/).
 
 #### Conversion markdown vers HTML
 
