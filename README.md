@@ -1,6 +1,6 @@
 # Générateur de site statique
 
-Ceci est un projet proposé à des étudiants en Python.
+Ceci est un projet proposé à des étudiants en Python. L'énoncé est volontairement long, pour apprendre à détecter l'essentiel dans un cahier des charges. C'est une compétence très utile en entreprise que de savoir prendre du recul.
 
 ## Qu'est-ce qu'un site statique
 
