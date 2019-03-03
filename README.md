@@ -68,6 +68,8 @@ Les fichiers markdown peuvent être créés :
 * avec https://dillinger.io/
 * …
 
+L'extension classiquement utilisée pour les fichiers markdown est « .md ».
+
 Pour donner un ordre d'idée, la version la plus basique du projet peut être faite en moins de 100 lignes.
 
 ### Réalisation d'une interface en ligne de commande
